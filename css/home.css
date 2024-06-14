@@ -1,10 +1,11 @@
 .main-section{
     border: 1px solid #000;
-    width: 100%;
+    margin: 0 auto;
 }
 .left-sidebar{
     background-color: #3A3A3A;
     padding: 0px;
+    
 }
 .searchbox{
     width: 100%;
@@ -25,6 +26,7 @@
 }
 .left-chat{
     overflow-y: scroll;
+    height: 70vh;
 }
 .left-chat ul{
     overflow: hidden;
