@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost:4307", "root", "", "myChat");
+$con = mysqli_connect("localhost:3306", "root", "", "myChat");
 
 if (!$con) {
     die("Connection failed: " . mysqli_connect_error());

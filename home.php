@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 include("include/connection.php");
-
+include("./include/home_header.php");
 // Provjeravamo postoji li sesija
 if(!isset($_SESSION)) {
     session_start();
@@ -26,7 +26,7 @@ if(!isset($_SESSION['user_email'])){
 </head>
 <body>
     
-    <div class="container main-section">
+    <div class="container main-section" style="width: 100%;">
         <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-12 left-sidebar">
                 <div class="input-group searchbox">
