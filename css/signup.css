@@ -1,9 +1,8 @@
 
 body{
     color: #999;
-    background-size: cover;
     font-family: 'Roboto', sans-serif;
-    background-image:url(../images/slika1.jpg);
+    background-color: #e1e1e1;
 }
 .form-control{
     min-height: 41px;
